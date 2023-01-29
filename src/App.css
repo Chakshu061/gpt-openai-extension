@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Calistoga&family=Lato:ital@0;1&family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.App{
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 30px;
+}
+
+.input-group{
+  display: block;
+  margin: 0;
+}
+.asklabel{
+  font-family: 'Poppins', sans-serif;
+  font-size:15px;
+  padding-bottom: 10px;
+  font-weight:bolder;
+}
+#ask{
+  background-color: transparent;
+  border: solid 1px #ccc;
+  padding: 1;
+  margin: 1;
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+}
+
+.submit {
+  background-color: #40cf80;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 1;
+  outline: none;
+  padding: 4px 228px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit:hover,
+.submit:focus {
+  background-color: #45f37f;
+}
+
+.answer{
+  font-size:13px;
+  width: 500px;
+}
+
